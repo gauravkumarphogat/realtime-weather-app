@@ -39,7 +39,7 @@ data_get(): This function fetches weather data from the OpenWeatherMap API and u
 Tkinter Widgets:
 Combobox: For selecting the city.
 Label: For displaying the app title, weather description, and temperature.
-Button: To trigger the data retrieval process.
+Button: To trigger the data retrieval process. 
 Requirements
 Python 3.x
 Tkinter (comes pre-installed with Python)
