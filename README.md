@@ -1,51 +1,61 @@
-# realtime-weather-app
-A simple and intuitive Python-based weather forecast application built using Tkinter. This app allows users to select a city from a predefined list and receive real-time weather updates, including the current climate and temperature.
+# Gaurav Weather Forecast App
 
-Features
-Real-time Weather Data: Fetches current weather information using the OpenWeatherMap API.
-User-Friendly Interface: Designed with Tkinter for a clean and easy-to-use interface.
-Wide City Selection: Choose from a list of major cities across India.
-Instant Weather Updates: Displays weather conditions and temperature at the click of a button.
-Installation
-Follow these steps to install and run the Gaurav Weather Forecast App on your local machine:
+A Python-based weather app built using Tkinter, providing real-time weather updates.
 
-Clone the Repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/gauravkumarphogat/gaurav-weather-app.git
-Navigate to the Project Directory:
+- **Real-time Weather Data**: Fetches current weather using the OpenWeatherMap API.
+- **User-Friendly Interface**: Clean, simple GUI built with Tkinter.
+- **Wide City Selection**: Choose from a list of major cities across India.
+- **Instant Weather Updates**: Displays climate and temperature at the click of a button.
 
-bash
-Copy code
-cd gaurav-weather-app
-Install the Required Dependencies: Ensure you have requests installed. If not, you can install it via pip:
+## Installation
 
-bash
-Copy code
-pip install requests
-Run the Application:
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/gauravkumarphogat/gaurav-weather-app.git
+   ```
+   
+2. **Navigate to the project directory**:
+   ```
+   cd gaurav-weather-app
+   ```
 
-bash
-Copy code
-python app.py
-Usage
-Launch the application.
-Select your city from the dropdown list.
-Click the "Done" button to retrieve the latest weather information.
-The app will display the current weather climate and temperature in Celsius.
-Code Overview
-data_get(): This function fetches weather data from the OpenWeatherMap API and updates the labels with the current climate and temperature.
-Tkinter Widgets:
-Combobox: For selecting the city.
-Label: For displaying the app title, weather description, and temperature.
-Button: To trigger the data retrieval process. 
-Requirements
-Python 3.x
-Tkinter (comes pre-installed with Python)
-Requests library (pip install requests)
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+3. **Install the required dependencies**:
+   ```
+   pip install requests
+   ```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+4. **Run the application**:
+   ```
+   python app.py
+   ```
+
+## Usage
+
+1. Launch the application.
+2. Select your city from the dropdown list.
+3. Click the "Done" button to get the latest weather information.
+4. The app will display the current weather condition and temperature in Celsius.
+
+## Code Overview
+
+- **`data_get()` Function**: Fetches weather data from the OpenWeatherMap API and updates the displayed information.
+- **Tkinter Widgets**:
+  - **Combobox**: For city selection.
+  - **Labels**: For displaying the app title, weather information, and temperature.
+  - **Button**: To trigger the weather data retrieval.
+
+## Requirements
+
+- Python 3.x
+- Tkinter (comes pre-installed with Python)
+- Requests library (install via `pip install requests`)
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
