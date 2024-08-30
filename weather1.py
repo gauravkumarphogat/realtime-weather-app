@@ -5,7 +5,7 @@ import requests
 # Function to get data
 def data_get():
     city = city_name.get()  # Retrieve the actual city name from the StringVar
-    data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=99059f909cfd14754a813d944b6140bc").json()
+    data = requests.get(f"YOUR_WEATHER_API").json()
 
     w_label1.config(text=data["weather"][0]["main"])
     temp_label1.config(text=str(int(data["main"]["temp"]-273.15)))
